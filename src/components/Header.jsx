@@ -1,5 +1,5 @@
 import React from "react";
-import perfilImg from "../img/me.png";
+import perfilImg from "../img/me.avif";
 function Header() {
   return (
     <header>

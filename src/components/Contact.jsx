@@ -16,7 +16,7 @@ function Contact() {
             action="https://formspree.io/f/mwkadwrr"
             method="POST"
           >
-            <label for="nameInput" className="srOnly"></label>
+            <label htmlFor="nameInput" className="srOnly"></label>
             <input
               type="text"
               id="nameInput"
@@ -25,7 +25,7 @@ function Contact() {
               required
               placeholder="Your Name*"
             />
-            <label for="emailInput" className="srOnly"></label>
+            <label htmlFor="emailInput" className="srOnly"></label>
             <input
               type="email"
               id="emailInput"
@@ -34,7 +34,7 @@ function Contact() {
               required
               placeholder="Your Email*"
             />
-            <label for="subjectInput" className="srOnly"></label>
+            <label htmlFor="subjectInput" className="srOnly"></label>
             <input
               type="text"
               id="subjectInput"
@@ -43,7 +43,7 @@ function Contact() {
               required
               placeholder="Subject*"
             />
-            <label for="messageInput" className="srOnly"></label>
+            <label htmlFor="messageInput" className="srOnly"></label>
             <textarea
               className="messageInput"
               name="messageInput"
