@@ -10,8 +10,8 @@ function AboutMe() {
 
       <article className="aboutContainer sectionContainer">
         <p>
-          Soy un desarrollador web front-end. Soy un apasionado de{" "}
-          <span>codear</span> y la resolución de problemas a través del código.
+          Soy un desarrollador web front-end, apasionado de <span>codear</span>{" "}
+          y la resolución de problemas a través del código.
         </p>
       </article>
     </section>
