@@ -1,4 +1,15 @@
+/* eslint-disable jsx-a11y/alt-text */
 import React from "react";
+import apiImg from "../img/skills/api.svg";
+import cssImg from "../img/skills/css.svg";
+import firebaseImg from "../img/skills/firebase.svg";
+import gitImg from "../img/skills/git.svg";
+import htmlImg from "../img/skills/html.svg";
+import javascriptImg from "../img/skills/html.svg";
+import jqueryImg from "../img/skills/jquery.svg";
+import reactImg from "../img/skills/react.svg";
+import sassImg from "../img/skills/sass.svg";
+import vscodeImg from "../img/skills/vscode.svg";
 
 function Skills() {
   return (
@@ -12,89 +23,62 @@ function Skills() {
         <ul className="skillsGrid">
           <li>
             <div className="itemContainer">
-              <img src="assets/skills/html.svg" />
+              <img src={htmlImg} />
               <p>HTML</p>
             </div>
           </li>
           <li>
             <div className="itemContainer">
-              <img src="assets/skills/css.svg" />
+              <img src={cssImg} />
               <p>CSS</p>
             </div>
           </li>
           <li>
             <div className="itemContainer">
-              <img src="assets/skills/sass.svg" />
+              <img src={sassImg} />
               <p>SASS</p>
             </div>
           </li>
           <li>
             <div className="itemContainer">
-              <img src="assets/skills/javascript.svg" />
+              <img src={javascriptImg} />
               <p>Javascript</p>
             </div>
           </li>
           <li>
             <div className="itemContainer">
-              <img src="assets/skills/jquery.svg" />
+              <img src={jqueryImg} />
               <p>JQuery</p>
             </div>
           </li>
           <li>
             <div className="itemContainer">
-              <img src="assets/skills/react.svg" />
+              <img src={reactImg} />
               <p>React</p>
             </div>
           </li>
           <li>
             <div className="itemContainer">
-              <img
-                src="assets/skills/api.svg"
-                alt="Image from https://commons.wikimedia.org/wiki/File:Cloud-API-Logo.svg"
-              />
+              <img src={apiImg} />
               <p>REST API</p>
             </div>
           </li>
           <li>
             <div className="itemContainer">
-              <img src="assets/skills/git.svg" />
+              <img src={gitImg} />
               <p>Git</p>
             </div>
           </li>
           <li>
             <div className="itemContainer">
-              <img src="assets/skills/firebase.svg" />
+              <img src={firebaseImg} />
               <p>Firebase</p>
             </div>
           </li>
           <li>
             <div className="itemContainer">
-              <img src="assets/skills/vscode.svg" />
+              <img src={vscodeImg} />
               <p>VS Code</p>
-            </div>
-          </li>
-          <li>
-            <div className="itemContainer">
-              <img src="assets/skills/microsoftWindows.svg" />
-              <p>Windows</p>
-            </div>
-          </li>
-          <li>
-            <div className="itemContainer">
-              <img src="assets/skills/microsoft.svg" />
-              <p>M365</p>
-            </div>
-          </li>
-          <li>
-            <div className="itemContainer">
-              <img src="assets/skills/dns.svg" />
-              <p>DNS</p>
-            </div>
-          </li>
-          <li>
-            <div className="itemContainer">
-              <img src="assets/skills/network.svg" />
-              <p>Networks</p>
             </div>
           </li>
         </ul>

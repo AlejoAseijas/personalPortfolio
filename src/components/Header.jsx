@@ -16,49 +16,28 @@ function Header() {
           aplicaciones y experiencias interactivas en la web.
         </p>
         <div className="socialsResume">
-          <a
-            className="resumeLink"
-            href="assets/Alex-Calia-Resume.pdf"
-            alt="Alex Calia's resumé"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Resumé
-          </a>
           <ul className="socialsList">
             <li>
               <a
-                href="https://www.linkedin.com/in/alexander-calia-33190337/"
+                href="https://www.linkedin.com/in/alejoaseijas/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <i
                   className="lni lni-linkedin-original"
-                  aria-label="Link to Alex's LinkedIn page."
+                  aria-label="Link to AlejoAseijas's LinkedIn page."
                 ></i>
               </a>
             </li>
             <li>
               <a
-                href="https://github.com/alexcalia"
+                href="https://github.com/AlejoAseijas"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <i
                   className="lni lni-github-original"
-                  aria-label="Link to Alex's GitHub page."
-                ></i>
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://twitter.com/AlexanderCalia"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <i
-                  className="lni lni-twitter-original"
-                  aria-label="Link to Alex's Twitter profile."
+                  aria-label="Link to AlejoAseijas's GitHub page."
                 ></i>
               </a>
             </li>

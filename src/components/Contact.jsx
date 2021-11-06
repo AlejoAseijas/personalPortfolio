@@ -9,37 +9,11 @@ function Contact() {
       </div>
 
       <div className="contactContainer sectionContainer">
-        <h3>Get in Touch</h3>
-        <div className="contactTypes">
-          <div className="flexContainer">
-            <div className="typeBox">
-              <i className="lni lni-envelope"></i>
-              <a href="mailto:alex.m.calia@outlook.com">
-                alex.m.calia@outlook.com
-              </a>
-              <p>Email Me</p>
-            </div>
-          </div>
-          <div className="flexContainer">
-            <div className="typeBox">
-              <i className="lni lni-calendar"></i>
-              <a
-                href="https://calendly.com/alexcalia/30min"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Calendly
-              </a>
-              <p>Schedule a Meeting</p>
-            </div>
-          </div>
-        </div>
         <div className="contactFormContainer">
-          <h3>Contact Form</h3>
-
+          <h3>Formulario de contacto</h3>
           <form
             id="contactForm"
-            action="https://formspree.io/mbjzeqpq"
+            action="https://formspree.io/f/mwkadwrr"
             method="POST"
           >
             <label for="nameInput" className="srOnly"></label>
@@ -86,7 +60,7 @@ function Contact() {
             form="contactForm"
             rel="noopener noreferrer"
           >
-            SEND
+            Enviar
           </button>
         </div>
       </div>
