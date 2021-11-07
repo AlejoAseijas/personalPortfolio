@@ -4,7 +4,7 @@ function Header() {
   return (
     <header>
       <div className="heroImageContainer">
-        <img src={perfilImg} alt="Alejo Aseijas" />
+        <img src={perfilImg} alt="Alejo Aseijas" alt="AlejoAseijasPhoto" />
       </div>
       <div className="heroDescription">
         <p className="greeting">Hola! Soy</p>

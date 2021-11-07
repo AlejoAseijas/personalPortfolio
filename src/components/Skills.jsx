@@ -1,4 +1,3 @@
-/* eslint-disable jsx-a11y/alt-text */
 import React from "react";
 import apiImg from "../img/skills/api.svg";
 import cssImg from "../img/skills/css.svg";
@@ -23,61 +22,61 @@ function Skills() {
         <ul className="skillsGrid">
           <li>
             <div className="itemContainer">
-              <img src={htmlImg} />
+              <img src={htmlImg} alt="htmlPhoto" />
               <p>HTML</p>
             </div>
           </li>
           <li>
             <div className="itemContainer">
-              <img src={cssImg} />
+              <img src={cssImg} alt="cssPhoto" />
               <p>CSS</p>
             </div>
           </li>
           <li>
             <div className="itemContainer">
-              <img src={sassImg} />
+              <img src={sassImg} alt="sassPhoto" />
               <p>SASS</p>
             </div>
           </li>
           <li>
             <div className="itemContainer">
-              <img src={javascriptImg} />
+              <img src={javascriptImg} alt="jsPhoto" />
               <p>Javascript</p>
             </div>
           </li>
           <li>
             <div className="itemContainer">
-              <img src={jqueryImg} />
+              <img src={jqueryImg} alt="jqueryPhoto" />
               <p>JQuery</p>
             </div>
           </li>
           <li>
             <div className="itemContainer">
-              <img src={reactImg} />
+              <img src={reactImg} alt="reactPhoto" />
               <p>React</p>
             </div>
           </li>
           <li>
             <div className="itemContainer">
-              <img src={apiImg} />
+              <img src={apiImg} alt="apiPhoto" />
               <p>REST API</p>
             </div>
           </li>
           <li>
             <div className="itemContainer">
-              <img src={gitImg} />
+              <img src={gitImg} alt="gitPhoto" />
               <p>Git</p>
             </div>
           </li>
           <li>
             <div className="itemContainer">
-              <img src={firebaseImg} />
+              <img src={firebaseImg} alt="firebasePhoto" />
               <p>Firebase</p>
             </div>
           </li>
           <li>
             <div className="itemContainer">
-              <img src={vscodeImg} />
+              <img src={vscodeImg} alt="vscodePhoto" />
               <p>VS Code</p>
             </div>
           </li>
