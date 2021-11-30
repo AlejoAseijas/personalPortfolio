@@ -1,5 +1,6 @@
 import React from "react";
 import frontArImg from "../img/frontAr.avif";
+import sweetStyle from "../img/sweet-style.avif";
 function Projects() {
   return (
     <section className="worksSection" id="works">
@@ -23,6 +24,30 @@ function Projects() {
             <div className="workLinks">
               <a
                 href="https://alejoaseijas.github.io/Front-Ar/"
+                className="liveLink"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Live
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <article className="workBox">
+          <div className="workImageContainer">
+            <img src={sweetStyle} alt="sweet-style front ecommerce." />
+          </div>
+          <div className="workDescribeContainer">
+            <h3>Sweet-Style</h3>
+            <h4>
+              Tecnologias usadas: <span className="techStack">HTML</span>,
+              <span className="techStack">SASS</span>,
+              <span className="techStack">JS</span>.
+            </h4>
+            <div className="workLinks">
+              <a
+                href="https://sweetstyleshop.000webhostapp.com/index.html"
                 className="liveLink"
                 target="_blank"
                 rel="noopener noreferrer"
