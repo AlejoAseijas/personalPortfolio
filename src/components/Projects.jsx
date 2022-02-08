@@ -1,6 +1,7 @@
 import React from "react";
 import frontArImg from "../img/frontAr.avif";
 import sweetStyle from "../img/sweet-style.avif";
+import saludAvanzada from "../img/saludAvanzada.avif";
 function Projects() {
   return (
     <section className="worksSection" id="works">
@@ -48,6 +49,30 @@ function Projects() {
             <div className="workLinks">
               <a
                 href="https://sweetstyleshop.000webhostapp.com/index.html"
+                className="liveLink"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Live
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <article className="workBox">
+          <div className="workImageContainer">
+            <img src={saludAvanzada} alt="sweet-style front ecommerce." />
+          </div>
+          <div className="workDescribeContainer">
+            <h3>Salud Avanzada</h3>
+            <h4>
+              <span className="techStack">REACT</span>,
+              <span className="techStack">SASS</span>.
+              <span className="techStack">JS</span>.
+            </h4>
+            <div className="workLinks">
+              <a
+                href="https://saludavanzada.com.ar/"
                 className="liveLink"
                 target="_blank"
                 rel="noopener noreferrer"
